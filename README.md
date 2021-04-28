@@ -1,6 +1,6 @@
-##ПРОЦЕДУРА ЗАПУСКА АВТОТЕСТОВ
+#ПРОЦЕДУРА ЗАПУСКА АВТОТЕСТОВ
 
-###При использовании MySQL
+##При использовании MySQL
 
 1. Запуск контейнеров
 ```
@@ -22,7 +22,7 @@ docker-compose -f docker-compose-mysql.yml down
 ```
 
 
-###При использовании PostgreSQL
+##При использовании PostgreSQL
 1. Запуск контейнеров
 ```
 docker-compose -f docker-compose-postgres.yml up -d
@@ -41,7 +41,7 @@ gradlew test -Dtest.db.url=jdbc:postgresql://localhost:5432/db  --info
 docker-compose -f docker-compose-postgres.yml down
 ```
 
-###Для запуска отчетов Allure
+##Для запуска отчетов Allure
 ```
 gradlew clean test allureReport
 gradlew allureServe
