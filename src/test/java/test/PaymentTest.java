@@ -25,6 +25,7 @@ public class PaymentTest {
         open("http://localhost:8080");
     }
 
+
     @Test
     public void shouldSuccessDebetPayment() {
         Card card = new Card();
@@ -109,7 +110,7 @@ public class PaymentTest {
         creditPage.checkCreditHeading();
         creditPage.inputCardData(card);
         creditPage.continuePayment();
-        creditPage.checkSuccessOperation();
+        creditPage.checkRejectOperation();
         val actual = SQLHelper.getCreditStatusFromDB();
         assertEquals("DECLINED", actual);
     }
