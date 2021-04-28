@@ -1,0 +1,293 @@
+{
+  "dfbeb3fd36a8b22708d0bf40e2de7e5b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b56baf827bbe6213",
+      "status" : "failed",
+      "statusDetails" : "expected: <APPROVED> but was: <null>",
+      "time" : {
+        "start" : 1619623792334,
+        "stop" : 1619623808871,
+        "duration" : 16537
+      }
+    } ]
+  },
+  "8c0001a8017822bd5be885d461c79904" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94a35c9a6929eb3e",
+      "status" : "failed",
+      "statusDetails" : "Element should have exact text 'Поле обязательно для заполнения' {.input__sub}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1619623897178,
+        "stop" : 1619623902742,
+        "duration" : 5564
+      }
+    } ]
+  },
+  "b9b3e95d6a46a7bf4cfba4d14397513c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f5920e34d5b5b28",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "time" : {
+        "start" : 1619623809145,
+        "stop" : 1619623815786,
+        "duration" : 6641
+      }
+    } ]
+  },
+  "18a6bd8e882d20d4245b58e31a48ddfe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "beeb798bbdb12c2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623817967,
+        "stop" : 1619623820539,
+        "duration" : 2572
+      }
+    } ]
+  },
+  "3b3d9329c1f0b6ec11b02b33e48ea413" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24f3f077a4923321",
+      "status" : "failed",
+      "statusDetails" : "expected: <DECLINED> but was: <null>",
+      "time" : {
+        "start" : 1619623839456,
+        "stop" : 1619623846642,
+        "duration" : 7186
+      }
+    } ]
+  },
+  "de485b3b620fffc8e3fd22ab24c07ee4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66c5d035de406580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623872416,
+        "stop" : 1619623874103,
+        "duration" : 1687
+      }
+    } ]
+  },
+  "c942446a9c93d2bf19526cbeb70d4f39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19be64c11385ab01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623820546,
+        "stop" : 1619623822933,
+        "duration" : 2387
+      }
+    } ]
+  },
+  "771e6b1f7f50ac5df27994df176c3adc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ce64ac13bb82794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623822943,
+        "stop" : 1619623828669,
+        "duration" : 5726
+      }
+    } ]
+  },
+  "1d1f7f2b0b0ef91b0860c0eeaf85fa7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c324b028234c21d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623890718,
+        "stop" : 1619623897171,
+        "duration" : 6453
+      }
+    } ]
+  },
+  "ebbd5971a0ce2452eddc424527a3d590" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fa190546388800",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.html\r\nTimeout: 20 s.",
+      "time" : {
+        "start" : 1619623846650,
+        "stop" : 1619623869792,
+        "duration" : 23142
+      }
+    } ]
+  },
+  "90cc763928a9f5c1625510c2ed3c500f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e343c39dfc200050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623815811,
+        "stop" : 1619623817958,
+        "duration" : 2147
+      }
+    } ]
+  },
+  "a4d1912bdf86e0911b8ccad63630c129" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3292d233b3ecf74d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623869800,
+        "stop" : 1619623872407,
+        "duration" : 2607
+      }
+    } ]
+  },
+  "984e1439cd39640c07c98f2e36477c4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f09e7d6f405ed9e7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "time" : {
+        "start" : 1619623874108,
+        "stop" : 1619623880635,
+        "duration" : 6527
+      }
+    } ]
+  },
+  "80ed7b42dcce3c5e9f1ea2bf071531a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e21fe83e5c17860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623880646,
+        "stop" : 1619623890710,
+        "duration" : 10064
+      }
+    } ]
+  },
+  "efe1e79cfce9e26567c5ea19abffa81a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ce58d0bdaf7cd26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619623828678,
+        "stop" : 1619623839443,
+        "duration" : 10765
+      }
+    } ]
+  }
+}

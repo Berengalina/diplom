@@ -1,0 +1,151 @@
+[ {
+  "uid" : "94a35c9a6929eb3e",
+  "name" : "shouldNotSendData()",
+  "time" : {
+    "start" : 1619623897178,
+    "stop" : 1619623902742,
+    "duration" : 5564
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e21fe83e5c17860",
+  "name" : "shouldSuccessDebetPayment()",
+  "time" : {
+    "start" : 1619623880646,
+    "stop" : 1619623890710,
+    "duration" : 10064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c324b028234c21d8",
+  "name" : "shouldSuccessDebetPaymentCurrentMonth()",
+  "time" : {
+    "start" : 1619623890718,
+    "stop" : 1619623897171,
+    "duration" : 6453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e343c39dfc200050",
+  "name" : "shouldNotValidOldYear()",
+  "time" : {
+    "start" : 1619623815811,
+    "stop" : 1619623817958,
+    "duration" : 2147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19be64c11385ab01",
+  "name" : "shouldNotValidExpireMonth()",
+  "time" : {
+    "start" : 1619623820546,
+    "stop" : 1619623822933,
+    "duration" : 2387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ce58d0bdaf7cd26",
+  "name" : "shouldRejectDebetPaymentNotExistCard()",
+  "time" : {
+    "start" : 1619623828678,
+    "stop" : 1619623839443,
+    "duration" : 10765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f09e7d6f405ed9e7",
+  "name" : "shouldNotValidName()",
+  "time" : {
+    "start" : 1619623874108,
+    "stop" : 1619623880635,
+    "duration" : 6527
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ce64ac13bb82794",
+  "name" : "shouldRejectCreditPaymentNotExistCard()",
+  "time" : {
+    "start" : 1619623822943,
+    "stop" : 1619623828669,
+    "duration" : 5726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66c5d035de406580",
+  "name" : "shouldNotValidCard()",
+  "time" : {
+    "start" : 1619623872416,
+    "stop" : 1619623874103,
+    "duration" : 1687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fa190546388800",
+  "name" : "shouldRejectDebetPaymentDeclinedCard()",
+  "time" : {
+    "start" : 1619623846650,
+    "stop" : 1619623869792,
+    "duration" : 23142
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "24f3f077a4923321",
+  "name" : "shouldRejectCreditPaymentDeclinedCard()",
+  "time" : {
+    "start" : 1619623839456,
+    "stop" : 1619623846642,
+    "duration" : 7186
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3292d233b3ecf74d",
+  "name" : "shouldNotValidNotExistMonth()",
+  "time" : {
+    "start" : 1619623869800,
+    "stop" : 1619623872407,
+    "duration" : 2607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b56baf827bbe6213",
+  "name" : "shouldSuccessCreditPayment()",
+  "time" : {
+    "start" : 1619623792334,
+    "stop" : 1619623808871,
+    "duration" : 16537
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "beeb798bbdb12c2c",
+  "name" : "shouldNotValidCvc()",
+  "time" : {
+    "start" : 1619623817967,
+    "stop" : 1619623820539,
+    "duration" : 2572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f5920e34d5b5b28",
+  "name" : "shouldNotValidNullMonth()",
+  "time" : {
+    "start" : 1619623809145,
+    "stop" : 1619623815786,
+    "duration" : 6641
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
