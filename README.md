@@ -13,7 +13,7 @@ java -Dspring.datasource.url=jdbc:mysql://localhost:3306/db -jar artifacts/aqa-s
 ```
 3. Запуск тестов с расширенной информацией о выполнении
 ```
-gradlew clean test -Dtest.db.url=jdbc:mysql://localhost:3306/db  --info
+gradlew test -Dtest.db.url=jdbc:mysql://localhost:3306/db  --info
 ```
 4. Остановка контейнеров
 ```
@@ -42,7 +42,7 @@ docker-compose -f docker-compose-postgres.yml down
 
 ### Для запуска отчетов Allure
 ```
-gradlew clean test allureReport
+gradlew allureReport
 gradlew allureServe
 ```
 
