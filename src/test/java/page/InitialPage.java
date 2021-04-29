@@ -57,7 +57,6 @@ public class InitialPage {
         cvcField.$(".input__sub").shouldHave(Condition.exactText("Поле обязательно для заполнения"));
     }
 
-
     public void invalidCardCheck() {
         cardField.$(".input__sub").shouldHave(Condition.exactText("Неверный формат"));
     }

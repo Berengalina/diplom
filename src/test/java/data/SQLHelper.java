@@ -2,9 +2,7 @@ package data;
 
 import lombok.SneakyThrows;
 import lombok.val;
-
 import java.sql.DriverManager;
-
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -27,7 +25,6 @@ public class SQLHelper {
         return (String) status;
     }
 
-
     @SneakyThrows
     public static String getCreditStatusFromDB() {
         val runner = new QueryRunner();
@@ -39,7 +36,6 @@ public class SQLHelper {
         val status = runner.query(conn, statusSQL, new ScalarHandler<>());
         return (String) status;
     }
-
 
     @SneakyThrows
     public static void cleaningDB() {
@@ -55,6 +51,5 @@ public class SQLHelper {
             runner.update(conn, deleteCreditRequestEntitySQL);
         }
     }
-
 
 }

@@ -1,7 +1,6 @@
 package data;
 
 import com.github.javafaker.Faker;
-
 import java.time.LocalDate;
 import java.util.Locale;
 import java.util.Random;
@@ -9,7 +8,6 @@ import java.util.Random;
 public class DataHelper {
 
     private DataHelper() {
-
     }
 
     public static String activeCard() {
@@ -37,7 +35,6 @@ public class DataHelper {
         return "98";
     }
 
-
     public static String generateByFakerName(String locale) {
         Faker faker = new Faker(new Locale(locale));
         return new String(
@@ -49,7 +46,6 @@ public class DataHelper {
         LocalDate date = LocalDate.now();
         int year = date.getYear() - 2000;
         return String.valueOf(year);
-
     }
 
     public static String lastYear() {

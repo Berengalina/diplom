@@ -27,7 +27,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldSuccessDebetPayment() {
+    public void shouldSuccessDebetPayment() {  //1.1 Оплата по дебетовой карте - успешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.randomMonth());
@@ -45,7 +45,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldRejectDebetPaymentDeclinedCard() {
+    public void shouldRejectDebetPaymentDeclinedCard() { //1.2 Оплата по дебетовой карте - неуспешная операция вариант 1
         Card card = new Card();
         card.setNumber(DataHelper.rejectedCard());
         card.setMonth(DataHelper.randomMonth());
@@ -62,7 +62,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldRejectDebetPaymentNotExistCard() {
+    public void shouldRejectDebetPaymentNotExistCard() { //1.3 Оплата по дебетовой карте - неуспешная операция вариант 2
         Card card = new Card();
         card.setNumber(DataHelper.notExistCard());
         card.setMonth(DataHelper.randomMonth());
@@ -80,7 +80,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldSuccessCreditPayment() {
+    public void shouldSuccessCreditPayment() { //1.4 Оплата в кредит - успешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.randomMonth());
@@ -98,7 +98,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldRejectCreditPaymentDeclinedCard() {
+    public void shouldRejectCreditPaymentDeclinedCard() { //1.5 Оплата в кредит - неуспешная операция вариант 1
         Card card = new Card();
         card.setNumber(DataHelper.rejectedCard());
         card.setMonth(DataHelper.randomMonth());
@@ -117,7 +117,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldRejectCreditPaymentNotExistCard() {
+    public void shouldRejectCreditPaymentNotExistCard() { //1.6 Оплата в кредит - неуспешная операция вариант 2
         Card card = new Card();
         card.setNumber(DataHelper.notExistCard());
         card.setMonth(DataHelper.randomMonth());
@@ -136,7 +136,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotSendData() {
+    public void shouldNotSendData() { //1.7 Отправка пустой формы - неуспешная операция
         val initialPage = new InitialPage();
         val paymentPage = initialPage.choosePaymentPage();
         paymentPage.continuePayment();
@@ -147,7 +147,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidCard() {
+    public void shouldNotValidCard() {  //1.8 Ввод невалидного номера карты - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.invalidCard());
         card.setMonth(DataHelper.randomMonth());
@@ -165,7 +165,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidNullMonth() {
+    public void shouldNotValidNullMonth() {  //1.9 Ввод невалидного месяца вариант 1 - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.invalidNullMonth());
@@ -182,7 +182,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldNotValidNotExistMonth() {
+    public void shouldNotValidNotExistMonth() {  //1.10 Ввод невалидного месяца вариант 2 - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.invalidNotExistMonth());
@@ -200,7 +200,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidOldYear() {
+    public void shouldNotValidOldYear() {  //1.11 Ввод неактуального месяца и года вариант 1 - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.actualMonth());
@@ -218,7 +218,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidExpireMonth() {
+    public void shouldNotValidExpireMonth() {  //1.12 Ввод неактуального месяца и года вариант 2 - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.lastMonth());
@@ -235,7 +235,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldSuccessDebetPaymentCurrentMonth() {
+    public void shouldSuccessDebetPaymentCurrentMonth() {  //1.13 Ввод текущего месяца и года - успешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.actualMonth());
@@ -254,7 +254,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidName() {
+    public void shouldNotValidName() {  //1.14 Ввод невалидного владельца - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.randomMonth());
@@ -272,7 +272,7 @@ public class PaymentTest {
 
 
     @Test
-    public void shouldNotValidCvc() {
+    public void shouldNotValidCvc() {  //1.15 Ввод невалидного CVC - неуспешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.randomMonth());
