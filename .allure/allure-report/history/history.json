@@ -1,24 +1,4 @@
 {
-  "dfbeb3fd36a8b22708d0bf40e2de7e5b" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b56baf827bbe6213",
-      "status" : "failed",
-      "statusDetails" : "expected: <APPROVED> but was: <null>",
-      "time" : {
-        "start" : 1619623792334,
-        "stop" : 1619623808871,
-        "duration" : 16537
-      }
-    } ]
-  },
   "8c0001a8017822bd5be885d461c79904" : {
     "statistic" : {
       "failed" : 1,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94a35c9a6929eb3e",
+      "uid" : "4fec791feaa0aa59",
       "status" : "failed",
-      "statusDetails" : "Element should have exact text 'Поле обязательно для заполнения' {.input__sub}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.html\r\nTimeout: 4 s.",
+      "statusDetails" : "Element should have exact text 'Поле обязательно для заполнения' {.input__sub}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901657827.4.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901657827.4.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1619623897178,
-        "stop" : 1619623902742,
-        "duration" : 5564
+        "start" : 1619901653383,
+        "stop" : 1619901658233,
+        "duration" : 4850
+      }
+    } ]
+  },
+  "87ec4aff0fc350f42c8ac901bdfbbd54" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e081aba0daff81ae",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901652973.3.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901652973.3.html\r\nTimeout: 20 s.",
+      "time" : {
+        "start" : 1619901631348,
+        "stop" : 1619901653375,
+        "duration" : 22027
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f5920e34d5b5b28",
+      "uid" : "9aaabdb549f0e8ae",
       "status" : "failed",
-      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901602438.1.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901602438.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
       "time" : {
-        "start" : 1619623809145,
-        "stop" : 1619623815786,
-        "duration" : 6641
+        "start" : 1619901597088,
+        "stop" : 1619901602924,
+        "duration" : 5836
       }
     } ]
   },
@@ -69,16 +69,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "beeb798bbdb12c2c",
+      "uid" : "35fc68cb8f148633",
       "status" : "passed",
       "time" : {
-        "start" : 1619623817967,
-        "stop" : 1619623820539,
-        "duration" : 2572
+        "start" : 1619901611532,
+        "stop" : 1619901613020,
+        "duration" : 1488
       }
     } ]
   },
-  "3b3d9329c1f0b6ec11b02b33e48ea413" : {
+  "fa375e80247a6730e5107ec613a36e70" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -88,13 +88,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24f3f077a4923321",
+      "uid" : "25d74deab00d27c4",
       "status" : "failed",
-      "statusDetails" : "expected: <DECLINED> but was: <null>",
+      "statusDetails" : "expected: <APPROVED> but was: <null>",
       "time" : {
-        "start" : 1619623839456,
-        "stop" : 1619623846642,
-        "duration" : 7186
+        "start" : 1619901539962,
+        "stop" : 1619901557184,
+        "duration" : 17222
+      }
+    } ]
+  },
+  "9fb8cc2f787b0789121728a69c3e7f39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0cc0f485d6de163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619901557457,
+        "stop" : 1619901566682,
+        "duration" : 9225
+      }
+    } ]
+  },
+  "efa68b134e6153dc0cbd651ec1694e35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd860f57e8be9da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619901588521,
+        "stop" : 1619901597080,
+        "duration" : 8559
       }
     } ]
   },
@@ -108,12 +146,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66c5d035de406580",
+      "uid" : "191dfbdc39e23da1",
       "status" : "passed",
       "time" : {
-        "start" : 1619623872416,
-        "stop" : 1619623874103,
-        "duration" : 1687
+        "start" : 1619901623993,
+        "stop" : 1619901625238,
+        "duration" : 1245
       }
     } ]
   },
@@ -127,16 +165,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "19be64c11385ab01",
+      "uid" : "4b9de915eee8ae2f",
       "status" : "passed",
       "time" : {
-        "start" : 1619623820546,
-        "stop" : 1619623822933,
-        "duration" : 2387
+        "start" : 1619901613024,
+        "stop" : 1619901614473,
+        "duration" : 1449
       }
     } ]
   },
-  "771e6b1f7f50ac5df27994df176c3adc" : {
+  "5c83c2df99f7f8b447b13ff3caa82c73" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -146,35 +184,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3ce64ac13bb82794",
+      "uid" : "9056db25d492dece",
       "status" : "passed",
       "time" : {
-        "start" : 1619623822943,
-        "stop" : 1619623828669,
-        "duration" : 5726
+        "start" : 1619901615780,
+        "stop" : 1619901623988,
+        "duration" : 8208
       }
     } ]
   },
-  "1d1f7f2b0b0ef91b0860c0eeaf85fa7b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c324b028234c21d8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619623890718,
-        "stop" : 1619623897171,
-        "duration" : 6453
-      }
-    } ]
-  },
-  "ebbd5971a0ce2452eddc424527a3d590" : {
+  "ebd6e4b0c1c131a6ed1f0a9c6911f670" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -184,13 +203,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3fa190546388800",
+      "uid" : "b54c7b3b2f412763",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.html\r\nTimeout: 20 s.",
+      "statusDetails" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901588051.0.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901588051.0.html\r\nTimeout: 20 s.",
       "time" : {
-        "start" : 1619623846650,
-        "stop" : 1619623869792,
-        "duration" : 23142
+        "start" : 1619901566699,
+        "stop" : 1619901588504,
+        "duration" : 21805
+      }
+    } ]
+  },
+  "98944bc91a7d2284a29fa4f20a770daf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e681e2908c4b8cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619901602929,
+        "stop" : 1619901610201,
+        "duration" : 7272
       }
     } ]
   },
@@ -204,12 +242,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e343c39dfc200050",
+      "uid" : "7397935ff179ce15",
       "status" : "passed",
       "time" : {
-        "start" : 1619623815811,
-        "stop" : 1619623817958,
-        "duration" : 2147
+        "start" : 1619901610206,
+        "stop" : 1619901611528,
+        "duration" : 1322
       }
     } ]
   },
@@ -223,12 +261,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3292d233b3ecf74d",
+      "uid" : "26eca78378b0d801",
       "status" : "passed",
       "time" : {
-        "start" : 1619623869800,
-        "stop" : 1619623872407,
-        "duration" : 2607
+        "start" : 1619901614478,
+        "stop" : 1619901615774,
+        "duration" : 1296
       }
     } ]
   },
@@ -242,51 +280,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f09e7d6f405ed9e7",
+      "uid" : "c8aa6dfc4011286c",
       "status" : "failed",
-      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "statusDetails" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901630791.2.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901630791.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
       "time" : {
-        "start" : 1619623874108,
-        "stop" : 1619623880635,
-        "duration" : 6527
-      }
-    } ]
-  },
-  "80ed7b42dcce3c5e9f1ea2bf071531a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9e21fe83e5c17860",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619623880646,
-        "stop" : 1619623890710,
-        "duration" : 10064
-      }
-    } ]
-  },
-  "efe1e79cfce9e26567c5ea19abffa81a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2ce58d0bdaf7cd26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1619623828678,
-        "stop" : 1619623839443,
-        "duration" : 10765
+        "start" : 1619901625243,
+        "stop" : 1619901631343,
+        "duration" : 6100
       }
     } ]
   }

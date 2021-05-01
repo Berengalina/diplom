@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expected: <APPROVED> but was: <null>",
       "children" : [ {
         "name" : "shouldSuccessCreditPayment()",
-        "uid" : "b56baf827bbe6213",
+        "uid" : "25d74deab00d27c4",
         "parentUid" : "8dcc626820d8a0b92dae663fb3d23a20",
         "status" : "failed",
         "time" : {
-          "start" : 1619623792334,
-          "stop" : 1619623808871,
-          "duration" : 16537
+          "start" : 1619901539962,
+          "stop" : 1619901557184,
+          "duration" : 17222
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,91 +20,92 @@
       } ],
       "uid" : "8dcc626820d8a0b92dae663fb3d23a20"
     }, {
-      "name" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623815001.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
-      "children" : [ {
-        "name" : "shouldNotValidNullMonth()",
-        "uid" : "2f5920e34d5b5b28",
-        "parentUid" : "3127118efc3f447a78bfd5e984b81df2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1619623809145,
-          "stop" : 1619623815786,
-          "duration" : 6641
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3127118efc3f447a78bfd5e984b81df2"
-    }, {
-      "name" : "expected: <DECLINED> but was: <null>",
+      "name" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901588051.0.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901588051.0.html\r\nTimeout: 20 s.",
       "children" : [ {
         "name" : "shouldRejectCreditPaymentDeclinedCard()",
-        "uid" : "24f3f077a4923321",
-        "parentUid" : "aba6720bb55d57374245f419b0c40a37",
+        "uid" : "b54c7b3b2f412763",
+        "parentUid" : "37d8019a6e727b5f45a0d1b64a2123d5",
         "status" : "failed",
         "time" : {
-          "start" : 1619623839456,
-          "stop" : 1619623846642,
-          "duration" : 7186
+          "start" : 1619901566699,
+          "stop" : 1619901588504,
+          "duration" : 21805
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "aba6720bb55d57374245f419b0c40a37"
+      "uid" : "37d8019a6e727b5f45a0d1b64a2123d5"
     }, {
-      "name" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623869073.1.html\r\nTimeout: 20 s.",
+      "name" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901602438.1.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901602438.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
       "children" : [ {
-        "name" : "shouldRejectDebetPaymentDeclinedCard()",
-        "uid" : "3fa190546388800",
-        "parentUid" : "8670e2db990c9b8888bcff8edb176d9a",
+        "name" : "shouldNotValidNullMonth()",
+        "uid" : "9aaabdb549f0e8ae",
+        "parentUid" : "057bababe69f48a3e834938883dcd371",
         "status" : "failed",
         "time" : {
-          "start" : 1619623846650,
-          "stop" : 1619623869792,
-          "duration" : 23142
+          "start" : 1619901597088,
+          "stop" : 1619901602924,
+          "duration" : 5836
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8670e2db990c9b8888bcff8edb176d9a"
+      "uid" : "057bababe69f48a3e834938883dcd371"
     }, {
-      "name" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623879893.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "name" : "Element not found {.input__sub}\r\nExpected: exact text 'Неверный формат'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901630791.2.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901630791.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
       "children" : [ {
         "name" : "shouldNotValidName()",
-        "uid" : "f09e7d6f405ed9e7",
-        "parentUid" : "0c22178dffc9d7c472d2a57b0a474508",
+        "uid" : "c8aa6dfc4011286c",
+        "parentUid" : "99bbeec96f7739394b4998e574ac2876",
         "status" : "failed",
         "time" : {
-          "start" : 1619623874108,
-          "stop" : 1619623880635,
-          "duration" : 6527
+          "start" : 1619901625243,
+          "stop" : 1619901631343,
+          "duration" : 6100
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0c22178dffc9d7c472d2a57b0a474508"
+      "uid" : "99bbeec96f7739394b4998e574ac2876"
     }, {
-      "name" : "Element should have exact text 'Поле обязательно для заполнения' {.input__sub}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619623901812.3.html\r\nTimeout: 4 s.",
+      "name" : "Element should be visible {by text: Ошибка! Банк отказал в проведении операции.}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901652973.3.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901652973.3.html\r\nTimeout: 20 s.",
+      "children" : [ {
+        "name" : "shouldRejectPaymentDeclinedCard()",
+        "uid" : "e081aba0daff81ae",
+        "parentUid" : "c3a8e2d9b1991600b4f2b86ecab9a1f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619901631348,
+          "stop" : 1619901653375,
+          "duration" : 22027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3a8e2d9b1991600b4f2b86ecab9a1f8"
+    }, {
+      "name" : "Element should have exact text 'Поле обязательно для заполнения' {.input__sub}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nScreenshot: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901657827.4.png\r\nPage source: file:/C:/Users/annab/Desktop/Netology%20Java%20Homework/Diploma/Try2/build/reports/tests/1619901657827.4.html\r\nTimeout: 4 s.",
       "children" : [ {
         "name" : "shouldNotSendData()",
-        "uid" : "94a35c9a6929eb3e",
-        "parentUid" : "fb269c9d7d5b0acdedeb327664c5e8df",
+        "uid" : "4fec791feaa0aa59",
+        "parentUid" : "e3599e3527715f9cf2832bb0fb793489",
         "status" : "failed",
         "time" : {
-          "start" : 1619623897178,
-          "stop" : 1619623902742,
-          "duration" : 5564
+          "start" : 1619901653383,
+          "stop" : 1619901658233,
+          "duration" : 4850
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fb269c9d7d5b0acdedeb327664c5e8df"
+      "uid" : "e3599e3527715f9cf2832bb0fb793489"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }
