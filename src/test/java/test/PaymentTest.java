@@ -25,9 +25,8 @@ public class PaymentTest {
         open("http://localhost:8080");
     }
 
-
     @Test
-    public void shouldSuccessDebetPayment() {  //1.1 Оплата по дебетовой карте - успешная операция
+    public void shouldSuccessPayment() {  //1.1 Оплата по дебетовой карте - успешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.randomMonth());
@@ -45,7 +44,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldRejectDebetPaymentDeclinedCard() { //1.2 Оплата по дебетовой карте - неуспешная операция вариант 1
+    public void shouldRejectPaymentDeclinedCard() { //1.2 Оплата по дебетовой карте - неуспешная операция вариант 1
         Card card = new Card();
         card.setNumber(DataHelper.rejectedCard());
         card.setMonth(DataHelper.randomMonth());
@@ -62,7 +61,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldRejectDebetPaymentNotExistCard() { //1.3 Оплата по дебетовой карте - неуспешная операция вариант 2
+    public void shouldRejectPaymentNotExistCard() { //1.3 Оплата по дебетовой карте - неуспешная операция вариант 2
         Card card = new Card();
         card.setNumber(DataHelper.notExistCard());
         card.setMonth(DataHelper.randomMonth());
@@ -75,62 +74,6 @@ public class PaymentTest {
         paymentPage.continuePayment();
         paymentPage.checkRejectOperation();
         val actual = SQLHelper.getPaymentStatusFromDB();
-        assertEquals(null, actual);
-    }
-
-
-    @Test
-    public void shouldSuccessCreditPayment() { //1.4 Оплата в кредит - успешная операция
-        Card card = new Card();
-        card.setNumber(DataHelper.activeCard());
-        card.setMonth(DataHelper.randomMonth());
-        card.setYear(DataHelper.nextYear());
-        card.setName(DataHelper.generateByFakerName("EN"));
-        card.setCvc(DataHelper.generateByFakerRandomCVC());
-        val initialPage = new InitialPage();
-        val creditPage = initialPage.chooseCreditPage();
-        creditPage.checkCreditHeading();
-        creditPage.inputCardData(card);
-        creditPage.continuePayment();
-        creditPage.checkSuccessOperation();
-        val actual = SQLHelper.getCreditStatusFromDB();
-        assertEquals("APPROVED", actual);
-    }
-
-    @Test
-    public void shouldRejectCreditPaymentDeclinedCard() { //1.5 Оплата в кредит - неуспешная операция вариант 1
-        Card card = new Card();
-        card.setNumber(DataHelper.rejectedCard());
-        card.setMonth(DataHelper.randomMonth());
-        card.setYear(DataHelper.nextYear());
-        card.setName(DataHelper.generateByFakerName("EN"));
-        card.setCvc(DataHelper.generateByFakerRandomCVC());
-        val initialPage = new InitialPage();
-        val creditPage = initialPage.chooseCreditPage();
-        creditPage.checkCreditHeading();
-        creditPage.inputCardData(card);
-        creditPage.continuePayment();
-        creditPage.checkRejectOperation();
-        val actual = SQLHelper.getCreditStatusFromDB();
-        assertEquals("DECLINED", actual);
-    }
-
-
-    @Test
-    public void shouldRejectCreditPaymentNotExistCard() { //1.6 Оплата в кредит - неуспешная операция вариант 2
-        Card card = new Card();
-        card.setNumber(DataHelper.notExistCard());
-        card.setMonth(DataHelper.randomMonth());
-        card.setYear(DataHelper.nextYear());
-        card.setName(DataHelper.generateByFakerName("EN"));
-        card.setCvc(DataHelper.generateByFakerRandomCVC());
-        val initialPage = new InitialPage();
-        val creditPage = initialPage.chooseCreditPage();
-        creditPage.checkCreditHeading();
-        creditPage.inputCardData(card);
-        creditPage.continuePayment();
-        creditPage.checkRejectOperation();
-        val actual = SQLHelper.getCreditStatusFromDB();
         assertEquals(null, actual);
     }
 
@@ -235,7 +178,7 @@ public class PaymentTest {
     }
 
     @Test
-    public void shouldSuccessDebetPaymentCurrentMonth() {  //1.13 Ввод текущего месяца и года - успешная операция
+    public void shouldSuccessPaymentCurrentMonth() {  //1.13 Ввод текущего месяца и года - успешная операция
         Card card = new Card();
         card.setNumber(DataHelper.activeCard());
         card.setMonth(DataHelper.actualMonth());
