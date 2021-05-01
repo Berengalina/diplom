@@ -22,8 +22,8 @@
 Успешных - 9 (60%)  
 Неуспешных - 6 (40%)
 
-![](https://i.ibb.co/KsfjqpZ/Allure-1.png)
-![](https://i.ibb.co/jRKLbjP/Allure-2.png)
+![](https://i.ibb.co/3pzz9p7/Allure-1.png)
+![](https://i.ibb.co/ypWrQPr/Allure-2.png)
 
 ### Общие рекомендации
 По результатам тестирования необходимо исправить найденные дефекты:   
